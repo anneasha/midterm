@@ -1,0 +1,31 @@
+a:visited {color:inherit;}
+.menu a:hover{background-color:#c2cbd2;}
+
+
+h1:hover{background-color:white;}
+
+h1, a {font-family: arial;
+		text-decoration: none;
+		display: block;}
+
+body {background-color:#f6f1f5}
+
+
+
+.media1{padding:10px;
+		position: absolute;
+	   	top:0px; left:400px;}
+
+.media2 {padding:10px;
+	   position: absolute;
+	   top:300px; left:200px;}
+
+.media3 {padding:10px;
+	   position: absolute;
+	   top:600px; left:900px;}
+
+.menu {position: fixed;
+		border-width: 1px;
+		border-style: solid;
+		background-color:white;
+		width:165px;}
