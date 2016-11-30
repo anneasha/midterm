@@ -4,10 +4,9 @@ a:visited {color:inherit;}
 
 .videoList a:hover{text-decoration:underline;}
 
-
 h1:hover{background-color:white;}
 
-h1, a {font-family: arial;
+h1, a, p {font-family: arial;
 		text-decoration: none;
 		display: block;}
 
@@ -15,17 +14,20 @@ body {background-color:#f6f1f5}
 
 
 
-.media1{padding:10px;
+
+
+.media1{padding:50px;
 		position: absolute;
-	   	top:0px; left:400px;}
+	   	top:-5px; left:170px;}
+
+.media3 {padding:50px;
+	   position: absolute;
+	   top:300px; left:900px;}
+
 
 .media2 {padding:10px;
 	   position: absolute;
 	   top:300px; left:200px;}
-
-.media3 {padding:10px;
-	   position: absolute;
-	   top:600px; left:900px;}
 
 .menu {position: fixed;
 		border-width: 1px;
@@ -48,12 +50,17 @@ body {background-color:#f6f1f5}
 		overflow-y:hidden;
 		overflow-x:scroll;}
 
-.videoList{padding: 10px;
+.mediaList{padding: 10px;
 			position:fixed;
 			left:200px;
 			top:50px;
 			width:500px;
 			height:500px;
 			background-color:white;
-			color:#fd86e6;}
+			color: blue;
+			/*color:#fd86e6;*/}
+
+.description {font-size: 12px;
+				}
+
 
