@@ -19,10 +19,9 @@ body {background-color:#f6f1f5}
 
 
 
-
 .media1{padding:50px;
 		position: absolute;
-	   	top:-5px; left:170px;}
+	   	top:-5px; left:300px;}
 
 .media3 {padding:50px;
 	   position: absolute;
@@ -38,9 +37,10 @@ body {background-color:#f6f1f5}
 		border-style: solid;
 		background-color:white;
 		width:165px;
-		height: 165px;
+		height: 180px;
 		top: 50px;
-		left: 60px;}
+		left: 60px;
+		color:black;}
 
 .media{padding:0px;
 		position:absolute;
@@ -68,9 +68,13 @@ body {background-color:#f6f1f5}
 			/*color:#fd86e6;*/}
 
 .description {font-size: 12px;}
+
 .container {display:flex;
 			flex-direction:row;
 			flex-wrap:nowrap;
 			justify-content: space-around;
 			align-items: center;}
+
+
+
 
